@@ -1,0 +1,8 @@
+[01m[K/home/fml/ros-main/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_custom_controller::CustomController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/fml/ros-main/src/nav2_custom_controller/src/custom_controller.cpp:155:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_checker[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  155 |     [01;35m[Knav2_core::GoalChecker *goal_checker[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/fml/ros-main/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvoid nav2_custom_controller::CustomController::publishVisualization(const PoseStamped&, const PoseStamped&, size_t)[m[K’:
+[01m[K/home/fml/ros-main/src/nav2_custom_controller/src/custom_controller.cpp:723:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  723 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &robot_pose[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K

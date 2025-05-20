@@ -1,0 +1,37 @@
+nav2_custom_planner:
+  ros__parameters:
+    # 基本参数
+    path_resolution: 0.03        # 保持高精度
+    obstacle_clearance: 0.45     # 维持安全距离
+    straight_line_preference: 10.0 # 极大增加直线偏好！
+    max_iterations: 15000        # 保持较高迭代次数
+    
+    # Ackermann参数
+    min_turning_radius: 1.2      # 保持不变
+    is_ackermann: true
+    robot_width: 0.3
+    robot_length: 0.55
+    inflation_radius: 0.55
+    
+    # 路径平滑与稳定性参数 - 强化转弯抑制和路径优化
+    path_smoothing_factor: 0.95  
+    path_stability_timeout: 30.0
+    turn_radius_factor: 4.0
+    path_improvement_threshold: 0.5
+    turn_suppression_factor: 15.0 # 显著提高转弯抑制因子
+    path_simplify_aggressiveness: 0.95 # 提高路径简化积极性
+    angle_continuity_factor: 0.97 # 增强角度连续性
+    
+    # 安全性和优化相关参数
+    obstacle_check_safety_factor: 1.1  # 略微减少以更容易选择直线路径
+    collision_check_points: 20      
+    enable_path_optimization: true  
+    grid_resolution_multiplier: 2.0 
+    direct_path_preferred: true     # 保持优先直接路径
+    enhanced_heuristic: true        # 使用增强启发式
+    
+    # 新增参数 - 强化直线规划
+    min_clearance_for_direct_path: 0.38  # 直接路径的最小间隙要求
+    prefer_forward_motion: true     # 偏好前进运动而非后退
+    enable_aggressive_path_pruning: true # 启用更激进的路径修剪
+    zigzag_penalty_multiplier: 5.0 # Z字形路径惩罚倍数

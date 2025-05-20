@@ -1,0 +1,4 @@
+Invoking command in '/home/fml/ros-main/build/nav2_custom_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_controller -- -j2 -l2
+Invoked command in '/home/fml/ros-main/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_controller -- -j2 -l2
+Invoking command in '/home/fml/ros-main/build/nav2_custom_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_controller
+Invoked command in '/home/fml/ros-main/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_controller

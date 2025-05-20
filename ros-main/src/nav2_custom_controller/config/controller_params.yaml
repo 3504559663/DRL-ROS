@@ -1,0 +1,39 @@
+controller_server:
+  ros__parameters:
+    controller_frequency: 15.0  # 降低控制频率，使转向更平滑
+    min_x_velocity_threshold: 0.01
+    min_y_velocity_threshold: 0.5
+    min_theta_velocity_threshold: 0.001
+    
+    # 其他控制器设置...
+    
+    # 自定义控制器参数
+    CustomController:
+      max_linear_speed: 0.3
+      min_linear_speed: 0.05  # 降低最小线速度以更平滑
+      max_angular_speed: 0.8  # 降低最大角速度
+      lookahead_distance: 0.8  # 增加前视距离
+      rotate_to_heading_angular_vel: 0.5  # 降低旋转速度
+      yaw_tolerance: 0.2  # 增加角度容差到约11.5度
+      xy_tolerance: 0.15  # 增加位置容差
+      transform_tolerance: 0.5  # 增加转换容差
+      stop_on_goal_dist: 0.3  # 增加停止距离
+      
+      # Ackermann参数
+      wheelbase: 0.3
+      max_steering_angle: 0.65  # 增加最大转向角
+      
+      # PID控制器参数
+      kp_linear: 0.8  # 降低比例增益
+      kp_angular: 0.9  # 提高角度比例增益
+      ki_angular: 0.05 # 增加少量积分增益
+      kd_angular: 0.25  # 略微减小微分增益，减少阻尼效应
+      
+      # 路径跟踪参数
+      path_deviation_threshold: 0.7  # 增加偏差阈值，减少纠正
+      lookahead_time: 2.5  # 增加前视时间
+      min_lookahead_distance: 0.5  # 增加最小前视距离
+      max_lookahead_distance: 2.0  # 增加最大前视距离
+      
+      # 可视化
+      enable_visualization: true

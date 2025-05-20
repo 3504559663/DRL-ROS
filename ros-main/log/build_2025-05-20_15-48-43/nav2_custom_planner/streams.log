@@ -1,0 +1,45 @@
+[0.020s] Invoking command in '/home/fml/ros-main/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[2.773s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createDualArcPath(const PoseStamped&, const PoseStamped&)[m[K’:
+[2.773s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:835:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconnection_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.773s]   835 |   double [01;35m[Kconnection_x[m[K = (c1_x + c2_x) / 2.0;
+[2.773s]       |          [01;35m[K^~~~~~~~~~~~[m[K
+[2.773s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:836:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconnection_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.773s]   836 |   double [01;35m[Kconnection_y[m[K = (c1_y + c2_y) / 2.0;
+[2.773s]       |          [01;35m[K^~~~~~~~~~~~[m[K
+[2.835s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path nav2_custom_planner::CustomPlanner::findPathAroundObstacles(const PoseStamped&, const PoseStamped&)[m[K’:
+[2.835s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1346:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcorridor_width_check[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.835s]  1346 |   double [01;35m[Kcorridor_width_check[m[K = 2.0 * inflation_radius_;
+[2.835s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.835s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1528:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_direction[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.835s]  1528 |   double [01;35m[Kgoal_direction[m[K = std::atan2(goal_my - start_my, goal_mx - start_mx);
+[2.835s]       |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[4.539s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[4.822s] [100%] Built target nav2_custom_planner_plugin
+[4.835s] Invoked command in '/home/fml/ros-main/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2
+[4.838s] Invoking command in '/home/fml/ros-main/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_planner
+[4.850s] -- Install configuration: ""
+[4.850s] -- Installing: /home/fml/ros-main/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[4.850s] -- Set runtime path of "/home/fml/ros-main/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""
+[4.850s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/include/
+[4.850s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/include//nav2_custom_planner
+[4.850s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[4.850s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[4.850s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[4.850s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[4.852s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[4.852s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[4.853s] -- Installing: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[4.853s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[4.855s] Invoked command in '/home/fml/ros-main/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_planner

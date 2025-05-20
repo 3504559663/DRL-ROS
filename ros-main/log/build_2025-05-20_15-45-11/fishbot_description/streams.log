@@ -1,0 +1,52 @@
+[0.013s] Invoking command in '/home/fml/ros-main/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/fishbot_description -- -j2 -l2
+[0.081s] Invoked command in '/home/fml/ros-main/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/fishbot_description -- -j2 -l2
+[0.081s] Invoking command in '/home/fml/ros-main/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/fishbot_description
+[0.098s] -- Install configuration: ""
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/launch
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/launch/laser_filter.launch.py
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/launch/improved_navigation.launch.py
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser_rear.urdf.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser_front.urdf.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[0.098s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/urdf/fishbot.urdf.xacro
+[0.099s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/config
+[0.099s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[0.099s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/config/laser_filter_config.yaml
+[0.099s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/config/rviz
+[0.099s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/config/rviz/dispaly_model.rviz
+[0.099s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/world
+[0.099s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[0.102s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/world/room
+[0.102s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/world/room/model.config
+[0.102s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[0.102s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/lib/fishbot_description/tf_stabilizer.py
+[0.102s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[0.102s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[0.102s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/environment/path.sh
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/local_setup.bash
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/local_setup.sh
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[0.103s] -- Installing: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.dsv
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[0.103s] -- Up-to-date: /home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.xml
+[0.118s] Invoked command in '/home/fml/ros-main/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/fishbot_description

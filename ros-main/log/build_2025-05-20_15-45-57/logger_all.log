@@ -1,0 +1,411 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e4fb3a0ba00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e4fb3b4cd60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e4fb3b4cd60>>)
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.159s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fml/ros-main'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_cmake' and name 'fishbot_description'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_controller) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_custom_controller' with type 'ros.ament_cmake' and name 'nav2_custom_controller'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_custom_planner' with type 'ros.ament_cmake' and name 'nav2_custom_planner'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pointcloud_merger) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pointcloud_merger' with type 'ros.ament_cmake' and name 'pointcloud_merger'
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/fml/ros-main/install
+[0.192s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 361 installed packages in /opt/ros/humble
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fml/ros-main/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fml/ros-main/install/fishbot_description', 'merge_install': False, 'path': '/home/fml/ros-main/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fml/ros-main/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fml/ros-main/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/fml/ros-main/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_custom_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fml/ros-main/build/nav2_custom_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fml/ros-main/install/nav2_custom_controller', 'merge_install': False, 'path': '/home/fml/ros-main/src/nav2_custom_controller', 'symlink_install': False, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_custom_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fml/ros-main/build/nav2_custom_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fml/ros-main/install/nav2_custom_planner', 'merge_install': False, 'path': '/home/fml/ros-main/src/nav2_custom_planner', 'symlink_install': False, 'test_result_base': None}
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'cmake_target' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'cmake_clean_first' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'cmake_force_configure' from command line to 'False'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'ament_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_merger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_merger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fml/ros-main/build/pointcloud_merger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fml/ros-main/install/pointcloud_merger', 'merge_install': False, 'path': '/home/fml/ros-main/src/pointcloud_merger', 'symlink_install': False, 'test_result_base': None}
+[0.225s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fml/ros-main/src/fishbot_description' with build type 'ament_cmake'
+[0.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fml/ros-main/src/fishbot_description'
+[0.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fml/ros-main/src/fishbot_navigation2' with build type 'ament_cmake'
+[0.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fml/ros-main/src/fishbot_navigation2'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/fishbot_description -- -j2 -l2
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/fishbot_navigation2 -- -j2 -l2
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/fishbot_description -- -j2 -l2
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/fishbot_description
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/fishbot_navigation2 -- -j2 -l2
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/fishbot_navigation2
+[0.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/fishbot_description
+[0.310s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description' for CMake module files
+[0.311s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description' for CMake config files
+[0.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/lib'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/bin'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/lib/python3.10/site-packages'
+[0.315s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/bin'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.bash'
+[0.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.zsh'
+[0.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[0.318s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description' for CMake module files
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description' for CMake config files
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/lib'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/bin'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/lib/python3.10/site-packages'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_description/bin'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.ps1'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.sh'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.bash'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_description/share/fishbot_description/package.zsh'
+[0.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[0.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fml/ros-main/src/nav2_custom_controller' with build type 'ament_cmake'
+[0.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fml/ros-main/src/nav2_custom_controller'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/fishbot_navigation2
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2' for CMake module files
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2' for CMake config files
+[0.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2/bin'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2/lib/python3.10/site-packages'
+[0.329s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2/bin'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[0.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[0.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[0.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[0.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2' for CMake module files
+[0.333s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2' for CMake config files
+[0.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[0.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2/bin'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2/lib/python3.10/site-packages'
+[0.334s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/fishbot_navigation2/bin'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[0.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[0.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[0.337s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fml/ros-main/src/nav2_custom_planner' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fml/ros-main/src/nav2_custom_planner'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_controller -- -j2 -l2
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_controller -- -j2 -l2
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_controller
+[0.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_controller)
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller' for CMake module files
+[0.470s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller' for CMake config files
+[0.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_controller', 'cmake_prefix_path')
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.ps1'
+[0.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_controller
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.sh'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/lib'
+[0.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_controller', 'ld_library_path_lib')
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.sh'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/bin'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/lib/pkgconfig/nav2_custom_controller.pc'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/lib/python3.10/site-packages'
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/bin'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.bash'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.zsh'
+[0.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/nav2_custom_controller/share/colcon-core/packages/nav2_custom_controller)
+[0.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_controller)
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller' for CMake module files
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller' for CMake config files
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_controller', 'cmake_prefix_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/cmake_prefix_path.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/lib'
+[0.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_controller', 'ld_library_path_lib')
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.ps1'
+[0.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/hook/ld_library_path_lib.sh'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/bin'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/lib/pkgconfig/nav2_custom_controller.pc'
+[0.492s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/lib/python3.10/site-packages'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_controller/bin'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.sh'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.bash'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.zsh'
+[0.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/nav2_custom_controller/share/colcon-core/packages/nav2_custom_controller)
+[0.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fml/ros-main/src/pointcloud_merger' with build type 'ament_cmake'
+[0.497s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fml/ros-main/src/pointcloud_merger'
+[0.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/pointcloud_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/pointcloud_merger -- -j2 -l2
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/pointcloud_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/pointcloud_merger -- -j2 -l2
+[0.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/pointcloud_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/pointcloud_merger
+[0.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_merger)
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger' for CMake module files
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger' for CMake config files
+[0.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_merger', 'cmake_prefix_path')
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/hook/cmake_prefix_path.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/hook/cmake_prefix_path.dsv'
+[0.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/pointcloud_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/pointcloud_merger
+[0.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/hook/cmake_prefix_path.sh'
+[0.660s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/lib'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/bin'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/lib/pkgconfig/pointcloud_merger.pc'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/lib/python3.10/site-packages'
+[0.661s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/bin'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.ps1'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.sh'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.bash'
+[0.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.zsh'
+[0.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/pointcloud_merger/share/colcon-core/packages/pointcloud_merger)
+[0.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_merger)
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger' for CMake module files
+[0.665s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger' for CMake config files
+[0.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_merger', 'cmake_prefix_path')
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/hook/cmake_prefix_path.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/hook/cmake_prefix_path.dsv'
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/hook/cmake_prefix_path.sh'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/lib'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/bin'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/lib/pkgconfig/pointcloud_merger.pc'
+[0.669s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/lib/python3.10/site-packages'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/pointcloud_merger/bin'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.ps1'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.dsv'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.sh'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.bash'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.zsh'
+[0.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/pointcloud_merger/share/colcon-core/packages/pointcloud_merger)
+[4.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2
+[4.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fml/ros-main/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_planner
+[4.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_planner)
+[4.766s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner' for CMake module files
+[4.766s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner' for CMake config files
+[4.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'cmake_prefix_path')
+[4.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.ps1'
+[4.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.dsv'
+[4.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.sh'
+[4.767s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/lib'
+[4.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'ld_library_path_lib')
+[4.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.ps1'
+[4.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fml/ros-main/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_planner
+[4.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.dsv'
+[4.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.sh'
+[4.769s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/bin'
+[4.769s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/lib/pkgconfig/nav2_custom_planner.pc'
+[4.769s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/lib/python3.10/site-packages'
+[4.769s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/bin'
+[4.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.ps1'
+[4.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv'
+[4.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.sh'
+[4.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.bash'
+[4.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.zsh'
+[4.771s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/nav2_custom_planner/share/colcon-core/packages/nav2_custom_planner)
+[4.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_planner)
+[4.772s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner' for CMake module files
+[4.772s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner' for CMake config files
+[4.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'cmake_prefix_path')
+[4.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.ps1'
+[4.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.dsv'
+[4.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.sh'
+[4.773s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/lib'
+[4.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'ld_library_path_lib')
+[4.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.ps1'
+[4.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.dsv'
+[4.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/hook/ld_library_path_lib.sh'
+[4.775s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/bin'
+[4.775s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/lib/pkgconfig/nav2_custom_planner.pc'
+[4.775s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/lib/python3.10/site-packages'
+[4.775s] Level 1:colcon.colcon_core.environment:checking '/home/fml/ros-main/install/nav2_custom_planner/bin'
+[4.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.ps1'
+[4.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv'
+[4.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.sh'
+[4.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.bash'
+[4.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.zsh'
+[4.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fml/ros-main/install/nav2_custom_planner/share/colcon-core/packages/nav2_custom_planner)
+[4.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.778s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.782s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.782s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.801s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.801s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fml/ros-main/install/local_setup.ps1'
+[4.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fml/ros-main/install/_local_setup_util_ps1.py'
+[4.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fml/ros-main/install/setup.ps1'
+[4.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fml/ros-main/install/local_setup.sh'
+[4.804s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fml/ros-main/install/_local_setup_util_sh.py'
+[4.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fml/ros-main/install/setup.sh'
+[4.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fml/ros-main/install/local_setup.bash'
+[4.808s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fml/ros-main/install/setup.bash'
+[4.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fml/ros-main/install/local_setup.zsh'
+[4.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fml/ros-main/install/setup.zsh'

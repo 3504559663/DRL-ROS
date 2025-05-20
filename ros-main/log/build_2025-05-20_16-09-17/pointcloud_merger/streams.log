@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/fml/ros-main/build/pointcloud_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/pointcloud_merger -- -j2 -l2
+[0.083s] [ 50%] Built target pointcloud_merger_node
+[0.094s] [100%] Built target pointcloud_to_laserscan_node
+[0.108s] Invoked command in '/home/fml/ros-main/build/pointcloud_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/pointcloud_merger -- -j2 -l2
+[0.112s] Invoking command in '/home/fml/ros-main/build/pointcloud_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/pointcloud_merger
+[0.116s] -- Install configuration: ""
+[0.116s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/lib/pointcloud_merger/pointcloud_merger_node
+[0.117s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/lib/pointcloud_merger/pointcloud_to_laserscan_node
+[0.117s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/launch
+[0.117s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/launch/to.launch.py
+[0.117s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/ament_index/resource_index/package_run_dependencies/pointcloud_merger
+[0.117s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/ament_index/resource_index/parent_prefix_path/pointcloud_merger
+[0.117s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/environment/ament_prefix_path.sh
+[0.117s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/environment/ament_prefix_path.dsv
+[0.117s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/environment/path.sh
+[0.118s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/environment/path.dsv
+[0.118s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/local_setup.bash
+[0.118s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/local_setup.sh
+[0.118s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/local_setup.zsh
+[0.118s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/local_setup.dsv
+[0.118s] -- Installing: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.dsv
+[0.118s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/ament_index/resource_index/packages/pointcloud_merger
+[0.119s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/cmake/pointcloud_mergerConfig.cmake
+[0.119s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/cmake/pointcloud_mergerConfig-version.cmake
+[0.123s] -- Up-to-date: /home/fml/ros-main/install/pointcloud_merger/share/pointcloud_merger/package.xml
+[0.125s] Invoked command in '/home/fml/ros-main/build/pointcloud_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/pointcloud_merger

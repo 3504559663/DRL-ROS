@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="body_mass" value="20.0" /> <!-- 减轻车身重量 -->
+    <xacro:property name="body_width" value="0.3" />
+    <xacro:property name="body_length" value="0.10" />
+    <xacro:property name="body_depth" value="0.55" /> <!-- 将原来的0.75减少到0.55 -->
+
+    <!-- BASE -->
+    <link name="base_footprint">
+            <origin xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <link name="base_link">
+        <inertial>
+            <origin xyz="0.0374140021041951 -0.000373005187591258 -0.0771282894414029" rpy="0 0 0" />
+            <mass value="20.0" /> <!-- 相应减少质量 -->
+            <inertia ixx="${body_mass/12 * (body_width*body_width + body_length*body_length)}"
+                ixy="0" ixz="0"
+                iyy="${body_mass/12 * (body_length*body_length + body_depth*body_depth)}" iyz="0"
+                izz="${body_mass/12 * (body_width*body_width + body_depth*body_depth)}" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <box size="0.55 0.3 0.10" /> <!-- 将长度从0.75修改为0.55 -->
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0.07 0 -0.05" rpy="0 0 0" />
+            <geometry>
+                <box size="0.55 0.3 0.10" /> <!-- 将长度从0.75修改为0.55 -->
+            </geometry>
+        </collision>
+    </link>
+    
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0.0 0.0 0.1555" rpy="0 0 0" /> <!-- 使用原来chassis_joint的高度 -->
+    </joint>
+
+</robot>

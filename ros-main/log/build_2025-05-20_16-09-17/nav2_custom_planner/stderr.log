@@ -1,0 +1,14 @@
+[01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createDualArcPath(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:835:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconnection_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  835 |   double [01;35m[Kconnection_x[m[K = (c1_x + c2_x) / 2.0;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:836:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconnection_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  836 |   double [01;35m[Kconnection_y[m[K = (c1_y + c2_y) / 2.0;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path nav2_custom_planner::CustomPlanner::findPathAroundObstacles(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1308:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcorridor_width_check[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1308 |   double [01;35m[Kcorridor_width_check[m[K = 2.5 * inflation_radius_; // 增加检查宽度以更好地识别走廊
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1512:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_direction[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1512 |   double [01;35m[Kgoal_direction[m[K = std::atan2(goal_my - start_my, goal_mx - start_mx);
+      |          [01;35m[K^~~~~~~~~~~~~~[m[K

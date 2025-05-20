@@ -1,0 +1,92 @@
+[0.020s] Invoking command in '/home/fml/ros-main/build/nav2_custom_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fml/ros-main/src/nav2_custom_controller -DCMAKE_INSTALL_PREFIX=/home/fml/ros-main/install/nav2_custom_controller
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.164s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.540s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[0.598s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.607s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.623s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.704s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.710s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.846s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.878s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.891s] -- Looking for pthread.h
+[0.979s] -- Looking for pthread.h - found
+[0.983s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.052s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.052s] -- Found Threads: TRUE  
+[1.395s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.395s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.560s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.637s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.638s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.639s] -- Configured cppcheck include dirs: /home/fml/ros-main/src/nav2_custom_controller/include
+[1.640s] -- Configured cppcheck exclude dirs and/or files: 
+[1.641s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.641s] -- Configured cpplint exclude dirs and/or files: 
+[1.642s] -- Added test 'lint_cmake' to check CMake code style
+[1.643s] -- Added test 'uncrustify' to check C / C++ code style
+[1.643s] -- Configured uncrustify additional arguments: 
+[1.644s] -- Added test 'xmllint' to check XML markup files
+[1.655s] -- Configuring done
+[1.715s] -- Generating done
+[1.720s] -- Build files have been written to: /home/fml/ros-main/build/nav2_custom_controller
+[1.731s] Invoked command in '/home/fml/ros-main/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fml/ros-main/src/nav2_custom_controller -DCMAKE_INSTALL_PREFIX=/home/fml/ros-main/install/nav2_custom_controller
+[1.736s] Invoking command in '/home/fml/ros-main/build/nav2_custom_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_controller -- -j2 -l2
+[1.785s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_controller.dir/src/custom_controller.cpp.o[0m
+[5.528s] [01m[K/home/fml/ros-main/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_custom_controller::CustomController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[5.528s] [01m[K/home/fml/ros-main/src/nav2_custom_controller/src/custom_controller.cpp:155:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_checker[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.528s]   155 |     [01;35m[Knav2_core::GoalChecker *goal_checker[m[K) {
+[5.528s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.534s] [01m[K/home/fml/ros-main/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvoid nav2_custom_controller::CustomController::publishVisualization(const PoseStamped&, const PoseStamped&, size_t)[m[K’:
+[5.534s] [01m[K/home/fml/ros-main/src/nav2_custom_controller/src/custom_controller.cpp:723:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.534s]   723 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &robot_pose[m[K,
+[5.534s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[9.199s] [100%] [32m[1mLinking CXX shared library libnav2_custom_controller.so[0m
+[9.689s] [100%] Built target nav2_custom_controller
+[9.702s] Invoked command in '/home/fml/ros-main/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_controller -- -j2 -l2
+[9.708s] Invoking command in '/home/fml/ros-main/build/nav2_custom_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_controller
+[9.715s] -- Install configuration: ""
+[9.716s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/lib/libnav2_custom_controller.so
+[9.718s] -- Set runtime path of "/home/fml/ros-main/install/nav2_custom_controller/lib/libnav2_custom_controller.so" to ""
+[9.718s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/include/
+[9.719s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/include//nav2_custom_controller
+[9.719s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/include//nav2_custom_controller/custom_controller.hpp
+[9.720s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/plugin.xml
+[9.721s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/environment/library_path.sh
+[9.721s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/environment/library_path.dsv
+[9.721s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/plugin.xml
+[9.721s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/ament_index/resource_index/package_run_dependencies/nav2_custom_controller
+[9.722s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/ament_index/resource_index/parent_prefix_path/nav2_custom_controller
+[9.722s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.sh
+[9.723s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.dsv
+[9.724s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.sh
+[9.724s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.dsv
+[9.724s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.bash
+[9.724s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.sh
+[9.724s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.zsh
+[9.724s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.dsv
+[9.724s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv
+[9.724s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/ament_index/resource_index/packages/nav2_custom_controller
+[9.725s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_controller
+[9.725s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.725s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[9.725s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.725s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig.cmake
+[9.725s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig-version.cmake
+[9.726s] -- Installing: /home/fml/ros-main/install/nav2_custom_controller/share/nav2_custom_controller/package.xml
+[9.727s] Invoked command in '/home/fml/ros-main/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_controller

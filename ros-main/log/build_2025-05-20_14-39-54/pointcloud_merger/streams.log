@@ -1,0 +1,96 @@
+[0.015s] Invoking command in '/home/fml/ros-main/build/pointcloud_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fml/ros-main/src/pointcloud_merger -DCMAKE_INSTALL_PREFIX=/home/fml/ros-main/install/pointcloud_merger
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.223s] -- The CXX compiler identification is GNU 11.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.335s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.337s] -- Detecting CXX compiler ABI info
+[0.406s] -- Detecting CXX compiler ABI info - done
+[0.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.414s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.556s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.657s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.734s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.744s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.758s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.912s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.915s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.039s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.060s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.120s] -- Looking for pthread.h
+[1.205s] -- Looking for pthread.h - found
+[1.205s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.270s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.272s] -- Found Threads: TRUE  
+[1.364s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.398s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.462s] -- Checking for module 'eigen3'
+[1.477s] --   Found eigen3, version 3.4.0
+[1.509s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.509s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.564s] -- Checking for module 'flann'
+[1.576s] --   Found flann, version 1.9.1
+[1.612s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.612s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.558s] -- Checking for module 'libusb-1.0'
+[2.570s] --   Found libusb-1.0, version 1.0.25
+[2.593s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.595s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.640s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.754s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.759s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.763s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.879s] -- Found Qhull version 8.0.2
+[3.008s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.174s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.174s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.177s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.177s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.177s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.177s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.178s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.178s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.180s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.180s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.181s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.182s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.184s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.184s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.185s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.187s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.187s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.188s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.188s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.189s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.189s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.190s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.191s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.194s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.194s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.200s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[3.201s]   By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has
+[3.201s]   asked CMake to find a package configuration file provided by "pcl_ros", but
+[3.201s]   CMake did not find one.
+[3.201s] 
+[3.201s]   Could not find a package configuration file provided by "pcl_ros" with any
+[3.201s]   of the following names:
+[3.201s] 
+[3.201s]     pcl_rosConfig.cmake
+[3.201s]     pcl_ros-config.cmake
+[3.201s] 
+[3.201s]   Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+[3.201s]   "pcl_ros_DIR" to a directory containing one of the above files.  If
+[3.201s]   "pcl_ros" provides a separate development package or SDK, be sure it has
+[3.201s]   been installed.
+[3.201s] 
+[3.201s] [0m
+[3.201s] -- Configuring incomplete, errors occurred!
+[3.201s] See also "/home/fml/ros-main/build/pointcloud_merger/CMakeFiles/CMakeOutput.log".
+[3.225s] Invoked command in '/home/fml/ros-main/build/pointcloud_merger' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fml/ros-main/src/pointcloud_merger -DCMAKE_INSTALL_PREFIX=/home/fml/ros-main/install/pointcloud_merger

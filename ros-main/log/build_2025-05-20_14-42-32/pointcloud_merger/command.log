@@ -1,0 +1,6 @@
+Invoking command in '/home/fml/ros-main/build/pointcloud_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fml/ros-main/src/pointcloud_merger -DCMAKE_INSTALL_PREFIX=/home/fml/ros-main/install/pointcloud_merger
+Invoked command in '/home/fml/ros-main/build/pointcloud_merger' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fml/ros-main/src/pointcloud_merger -DCMAKE_INSTALL_PREFIX=/home/fml/ros-main/install/pointcloud_merger
+Invoking command in '/home/fml/ros-main/build/pointcloud_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/pointcloud_merger -- -j2 -l2
+Invoked command in '/home/fml/ros-main/build/pointcloud_merger' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/pointcloud_merger -- -j2 -l2
+Invoking command in '/home/fml/ros-main/build/pointcloud_merger': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/pointcloud_merger
+Invoked command in '/home/fml/ros-main/build/pointcloud_merger' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/pointcloud_merger

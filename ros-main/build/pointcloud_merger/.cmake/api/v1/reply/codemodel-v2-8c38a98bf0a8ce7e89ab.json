@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-81079c03e6d01e88c009.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pointcloud_merger",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_merger_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_merger_node-b45ce0fdde46940aab1b.json",
+					"name" : "pointcloud_merger_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_merger_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_merger_uninstall-c0bc034600429abc47d6.json",
+					"name" : "pointcloud_merger_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_to_laserscan_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_to_laserscan_node-ddaaedac6e70492573c2.json",
+					"name" : "pointcloud_to_laserscan_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-48677077c260cba2847c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fml/ros-main/build/pointcloud_merger",
+		"source" : "/home/fml/ros-main/src/pointcloud_merger"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

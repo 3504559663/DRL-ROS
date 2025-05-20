@@ -1,0 +1,23 @@
+[0.012s] Invoking command in '/home/fml/ros-main/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[2.617s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kbool nav2_custom_planner::CustomPlanner::hasLineOfSight(const std::pair<int, int>&, const std::pair<int, int>&, const std::vector<std::vector<int> >&, double)[m[K’:
+[2.620s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1216:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[2.620s]  1216 |         for (int by = -buffer_cells; ++by[01;31m[K)[m[K {
+[2.620s]       |                                          [01;31m[K^[m[K
+[2.620s]       |                                          [32m[K;[m[K
+[2.627s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path nav2_custom_planner::CustomPlanner::findPathAroundObstacles(const PoseStamped&, const PoseStamped&)[m[K’:
+[2.627s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1474:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kinflation_radius_cells[m[K’ was not declared in this scope; did you mean ‘[01m[Kinflation_radius_[m[K’?
+[2.627s]  1474 |         int min_dist_to_obstacle = [01;31m[Kinflation_radius_cells[m[K + 1;
+[2.627s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.628s]       |                                    [32m[Kinflation_radius_[m[K
+[2.674s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1345:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcorridor_width_check[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.675s]  1345 |   double [01;35m[Kcorridor_width_check[m[K = 2.0 * inflation_radius_;
+[2.676s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.676s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1531:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_direction[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.676s]  1531 |   double [01;35m[Kgoal_direction[m[K = std::atan2(goal_my - start_my, goal_mx - start_mx);
+[2.676s]       |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.706s] gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76：CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o] 错误 1
+[3.706s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/nav2_custom_planner_plugin.dir/all] 错误 2
+[3.706s] gmake: *** [Makefile:146：all] 错误 2
+[3.708s] Invoked command in '/home/fml/ros-main/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2

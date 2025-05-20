@@ -1,0 +1,12 @@
+[0.011s] Invoking command in '/home/fml/ros-main/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[2.604s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path nav2_custom_planner::CustomPlanner::findPathAroundObstacles(const PoseStamped&, const PoseStamped&, bool)[m[K’:
+[2.604s] [01m[K/home/fml/ros-main/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1381:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[2.604s]  1381 |           for (int dy = -effective_inflation_radius_cells; ++dy[01;31m[K)[m[K {
+[2.604s]       |                                                                [01;31m[K^[m[K
+[2.605s]       |                                                                [32m[K;[m[K
+[3.755s] gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76：CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o] 错误 1
+[3.757s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/nav2_custom_planner_plugin.dir/all] 错误 2
+[3.757s] gmake: *** [Makefile:146：all] 错误 2
+[3.759s] Invoked command in '/home/fml/ros-main/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2

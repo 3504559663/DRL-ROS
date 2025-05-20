@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot name="fishbot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- Include all component definitions -->
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/base.urdf.xacro" />
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/sensor/laser_front.urdf.xacro" />
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/sensor/laser_rear.urdf.xacro" />
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/sensor/imu.urdf.xacro" />
+
+    <!-- Add the components to the robot -->
+    <xacro:laser_front_xacro />
+    <xacro:laser_rear_xacro />
+    <xacro:imu_xacro xyz="0 0 0" />
+    
+</robot>

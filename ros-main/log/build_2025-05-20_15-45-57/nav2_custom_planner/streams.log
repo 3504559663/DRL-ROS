@@ -1,0 +1,31 @@
+[0.022s] Invoking command in '/home/fml/ros-main/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[4.052s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[4.398s] [100%] Built target nav2_custom_planner_plugin
+[4.408s] Invoked command in '/home/fml/ros-main/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fml/ros-main/build/nav2_custom_planner -- -j2 -l2
+[4.410s] Invoking command in '/home/fml/ros-main/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_planner
+[4.421s] -- Install configuration: ""
+[4.422s] -- Installing: /home/fml/ros-main/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[4.423s] -- Set runtime path of "/home/fml/ros-main/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""
+[4.423s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/include/
+[4.423s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/include//nav2_custom_planner
+[4.423s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[4.423s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[4.423s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[4.424s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[4.424s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[4.425s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[4.425s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[4.425s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[4.425s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[4.425s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[4.425s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[4.425s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[4.425s] -- Installing: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[4.426s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[4.427s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[4.427s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[4.427s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[4.427s] -- Up-to-date: /home/fml/ros-main/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[4.430s] Invoked command in '/home/fml/ros-main/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fml/ros-main/build/nav2_custom_planner
