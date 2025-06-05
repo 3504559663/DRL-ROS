@@ -1,0 +1,38 @@
+[INFO] [launch]: All log files can be found below /home/fml/.ros/log/2025-05-26-15-03-26-972093-fml-virtual-machine-11528
+[INFO] [launch]: Default logging verbosity is set to INFO
+DEBUG: Using world file: /home/fml/DRL-Robot-Navigation-ROS2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds/turtlebot3_drl/waffle.model
+DEBUG: Using direct path for URDF: /home/fml/DRL-Robot-Navigation-ROS2/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+DEBUG: Using direct path for URDF: /home/fml/DRL-Robot-Navigation-ROS2/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[INFO] [gzserver-1]: process started with pid [11530]
+[INFO] [gzclient-2]: process started with pid [11532]
+[INFO] [robot_state_publisher-3]: process started with pid [11534]
+[robot_state_publisher-3] [INFO] [1748243007.684524317] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-3] [INFO] [1748243007.685098807] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1748243007.685385518] [robot_state_publisher]: got segment base_scan
+[robot_state_publisher-3] [INFO] [1748243007.685551257] [robot_state_publisher]: got segment camera_depth_frame
+[robot_state_publisher-3] [INFO] [1748243007.685555698] [robot_state_publisher]: got segment camera_depth_optical_frame
+[robot_state_publisher-3] [INFO] [1748243007.685558571] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-3] [INFO] [1748243007.685560859] [robot_state_publisher]: got segment camera_rgb_frame
+[robot_state_publisher-3] [INFO] [1748243007.685562996] [robot_state_publisher]: got segment camera_rgb_optical_frame
+[robot_state_publisher-3] [INFO] [1748243007.685565075] [robot_state_publisher]: got segment caster_back_left_link
+[robot_state_publisher-3] [INFO] [1748243007.685567428] [robot_state_publisher]: got segment caster_back_right_link
+[robot_state_publisher-3] [INFO] [1748243007.685569420] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-3] [INFO] [1748243007.685571618] [robot_state_publisher]: got segment wheel_left_link
+[robot_state_publisher-3] [INFO] [1748243007.685573814] [robot_state_publisher]: got segment wheel_right_link
+[gzserver-1] [INFO] [1748243008.785253538] [turtlebot3_imu]: <initial_orientation_as_reference> is unset, using default value of false to comply with REP 145 (world as orientation reference)
+[gzserver-1] [INFO] [1748243009.402558877] [camera_driver]: Publishing camera info to [/camera/camera_info]
+[gzserver-1] [INFO] [1748243009.446367488] [gazebo.gazebo_ros_state]: Publishing states of gazebo models at [/gazebo/model_states]
+[gzserver-1] [INFO] [1748243009.447813790] [gazebo.gazebo_ros_state]: Publishing states of gazebo links at [/gazebo/link_states]
+[gzserver-1] [INFO] [1748243009.461915017] [turtlebot3_diff_drive]: Wheel pair 1 separation set to [0.287000m]
+[gzserver-1] [INFO] [1748243009.461961983] [turtlebot3_diff_drive]: Wheel pair 1 diameter set to [0.066000m]
+[gzserver-1] [INFO] [1748243009.463048137] [turtlebot3_diff_drive]: Subscribed to [/cmd_vel]
+[gzserver-1] [INFO] [1748243009.464260874] [turtlebot3_diff_drive]: Advertise odometry on [/odom]
+[gzserver-1] [INFO] [1748243009.465960738] [turtlebot3_diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+[gzserver-1] [INFO] [1748243009.472809803] [turtlebot3_joint_state]: Going to publish joint [wheel_left_joint]
+[gzserver-1] [INFO] [1748243009.472834483] [turtlebot3_joint_state]: Going to publish joint [wheel_right_joint]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[robot_state_publisher-3] [INFO] [1748243437.921583936] [rclcpp]: signal_handler(signum=2)
+[INFO] [robot_state_publisher-3]: process has finished cleanly [pid 11534]
+[gzclient-2] context mismatch in svga_surface_destroy
+[INFO] [gzclient-2]: process has finished cleanly [pid 11532]
+[INFO] [gzserver-1]: process has finished cleanly [pid 11530]
